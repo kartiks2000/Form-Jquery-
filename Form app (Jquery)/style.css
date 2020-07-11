@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading-box{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: cornsilk;
+}
+
+.heading{
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: cadetblue;
+}
+
+.form-box{
+    min-height: 100vh;
+    text-align: center;
+    background-color: aqua;
+}
+
+.form{
+    padding: 3rem;
+}
+
+.part{
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.noflex{
+    display: block;
+}
+
+input[type="text"], input[type="number"], input[type="email"]{
+    width: 600px;
+    height: 2.4rem;
+    border: none;
+    outline: none;
+    padding: 0 .5rem ;
+    border-bottom: 4px solid orangered;
+}
+
+textarea{
+    width: 600px;
+    border: none;
+    outline: none;
+    padding: 0 .5rem ;
+    border-bottom: 2px solid orangere
+}
+
+button{
+    font-size: 1.2rem;
+    padding: .4rem;
+    margin: 2rem;
+}

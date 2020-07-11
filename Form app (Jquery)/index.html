@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Form app</title>
+</head>
+<body>
+    <div class="heading-box">
+        <h1 class="heading">Registeration form</h1>
+    </div>
+    <div class="form-box">
+        <form class="form">
+
+            <div class="part">
+                <label for="firstname">First Name :</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+
+            <div class="part">
+                <label for="secondname">Second Name :</label>
+                <input type="text" name="secondname" id="secondname">
+            </div>
+
+            <div class="part">
+                <label for="age">Age :</label>
+                <input type="number" name="age" id="age">
+            </div>
+
+            <div class="age-hide-show">
+
+                <div class="part">
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="part">
+                    <label for="address">Address :</label>
+                    <textarea name="address" id="address" cols="30" rows="7"></textarea>
+                </div>
+
+                <div class="part">
+                    <label for="city">City :</label>
+                    <input type="text" name="city" id="city">
+                </div>
+
+                <div class="part">
+                    <label for="postalcode">Postal code :</label>
+                    <input type="number" name="postalcode" id="postalcode">
+                </div>
+
+               <div class="part">
+                    <label for="country">Country :</label>
+                    <input type="text" name="country" id="country">
+                </div>
+
+                <div class="part">
+                    <div class="noflex">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">Do you agree the terms and conditions? </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="agree-hide-show">
+
+                <div class="part status">
+                    <div class="noflex">
+                        <input type="radio" name="status" id="student" value="1">
+                        <label for="student">Student </label>
+                        <input type="radio" name="status" id="outsider" value="2">
+                        <label for="outsider">Outsider </label>
+                    </div>
+                </div>
+
+                <div class="status-hide-show">
+
+                    <div class="part">
+                        <label for="studentid">Student ID :</label>
+                        <input type="text" name="studentid" id="studentid">
+                    </div>
+
+                </div>
+
+                <div class="part">
+                    <label for="qualification">Qualification :</label>
+                    <input type="text" name="qualification" id="qualification">
+                </div>
+
+                <div class="part">
+                    <label for="maxscore">Max Score :</label>
+                    <input type="number" name="maxscore" id="maxscore">
+                </div>
+
+                <div class="part">
+                    <label for="obtainedscore">Obtained Score :</label>
+                    <input type="number" name="obtainedscore" id="obtainedscore">
+                </div>
+
+                <div class="part">
+                    <div class="noflex">
+                        <input type="radio" name="genderradio" id="gender-male" value="2">
+                        <label for="gender-male">Male </label>
+                        <input type="radio" name="genderradio" id="gender-female" value="1">
+                        <label for="gender-female">Female </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="gender-hide-show">
+                <div class="part">
+                    <label for="femnumber">FEM number :</label>
+                    <input type="number" name="femnumber" id="femnumber">
+                </div> 
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
